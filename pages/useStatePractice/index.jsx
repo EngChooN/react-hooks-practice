@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function useStatePractice() {
+export default function UseStatePractice() {
   const [time, setTime] = useState(1);
 
   const heavyWork = () => {

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Timer from "../../src/timer";
 
-export default function useEffectPracticePage() {
+export default function UseEffectPractice() {
   const [input, setInput] = useState("");
   const [timerValid, setTimerValid] = useState(false);
 
