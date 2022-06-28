@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 
-export default function UseRefPractice1() {
+export default function UseRefPracticeVar01() {
   const [count, setCount] = useState(0);
   const countRef = useRef(0);
 
@@ -21,7 +21,7 @@ export default function UseRefPractice1() {
 
   return (
     <div>
-      <div>useRefPractice</div>
+      <div>useRefPracticeVar01</div>
       <hr />
       <p>State: {count}</p>
       <button onClick={increaseCountState}>State올리기</button>
