@@ -23,7 +23,7 @@ export default function UseRefPracticeDOM01() {
       <div>useRefPracticeDOM01</div>
       <hr />
       <input ref={inputRef} type={"text"} placeholder="username" />
-      {/* input 태그에 ref를 inputRef를 입력하게 되면, inputRef의 값은 인풋의 대한 정보가 담기게 된다 (콘솔에 input이라고 뜸!) */}
+      {/* input 태그에 ref를 inputRef를 입력하게 되면, inputRef의 값은 인풋의 대한 정보가 담기게 된다 (콘솔에 input이라고 뜸) */}
       <button onClick={login}>Login</button>
     </div>
   );
