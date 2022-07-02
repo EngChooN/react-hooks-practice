@@ -24,7 +24,7 @@ export default function UseMemoPracticePage() {
     return Number(inputNumber) + 1;
   };
 
-  // const hardResult = hardCalculate(hardNumber).;
+  // const hardResult = hardCalculate(hardNumber);
   const hardResult = useMemo(() => {
     return hardCalculate(hardNumber);
   }, [hardNumber]);
