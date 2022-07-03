@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { ThemContext } from "../context/ThemContext";
 
 const Main = styled.div`
-  /* background-color: ${(props) => (props.isDark ? "black" : "gray")}; */
+  /* background-color: ${(props) => (props.dark ? "black" : "gray")}; */
   height: 80px;
   width: 100%;
   display: flex;
@@ -11,7 +11,7 @@ const Main = styled.div`
   align-items: center;
 `;
 
-export default function Footer() {
+export default function Footer(props) {
   const { isDark } = useContext(ThemContext);
   return (
     <Main

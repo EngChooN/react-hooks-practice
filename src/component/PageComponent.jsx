@@ -22,6 +22,7 @@ const Button = styled.button`
 export default function PageComponent() {
   // context 사용법
   const { isDark, setIsDark } = useContext(ThemContext);
+  const [dark, setDark] = useState(true);
 
   const onClickBtn = () => {
     setIsDark(!isDark);
@@ -32,7 +33,7 @@ export default function PageComponent() {
     <Main>
       <Header />
       <Content />
-      <Footer />
+      <Footer dark={dark} />
       <Button onClick={onClickBtn}>DarkMode!</Button>
     </Main>
   );
