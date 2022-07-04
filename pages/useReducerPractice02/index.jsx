@@ -1,3 +1,4 @@
+//  useReducer를 이용한 출석부 어플리케이션 실습
 import { useReducer, useState } from "react";
 import Students from "../../src/component/Students";
 
